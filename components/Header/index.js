@@ -28,6 +28,11 @@ function header() {
     h1.textContent = ('Lambda Times')
     spanTwo.textContent = ('98°')
 
+    
     return divHeader
 }
-document.querySelector('.header.container')
+
+document.querySelector('.header-container').append(header())
+
+
+
