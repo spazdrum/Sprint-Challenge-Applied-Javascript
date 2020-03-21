@@ -30,14 +30,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    DOM is the Document Object Model that is the programming API for HTML and XML
+
 2. What is an event?
+
+    An event is something that happens within an HTML document
+        - an HTML page finished loading
+        - an input field was changed
+        - a button was clicked
 
 3. What is an event listener?
 
+    an event listener is a procedure in JS that waits for an event to occur
+    for example:
+        clicking the mouse or pressing a key
+
 4. Why would we convert a NodeList into an Array?
+
+    To use the array methods
 
 5. What is a component?
 
+    A component is an independent and reusable bit of code. 
+    
 ### Git Set up
 
 * [x] Fork the project into your GitHub user account
@@ -49,7 +64,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
+* [x] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
 * [x] Following the instructions in the `Header/index.js` file, create the Header component. 
 
