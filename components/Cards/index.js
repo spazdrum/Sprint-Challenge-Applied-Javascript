@@ -39,7 +39,7 @@ function cardCreator(object) {
     const divAuthor = document.createElement('div')
     const divImg = document.createElement('div')
     const img = document.createElement('img')
-    const span = document.createTreeWalker('span')
+    const span = document.createElement('span')
 
     divCard.append(divHeadline)
     divCard.append(divAuthor)
